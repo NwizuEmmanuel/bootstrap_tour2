@@ -1,123 +1,55 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Document</title>
-</head>
-<body>
+  </head>
+
+  <body>
     <div class="container mt-3">
-        <h2>Bootsrap Tables</h2>
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th>First name</th>
-                    <th>Last name</th>
-                    <th>Address</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>San Jose</td>
-                </tr>
-                <tr>
-                    <td>Mark</td>
-                    <td>Book</td>
-                    <td>San Carlos</td>
-                </tr>
-                <tr>
-                    <td>Peter</td>
-                    <td>Bridge</td>
-                    <td>Angeles</td>
-                </tr>
-            </tbody>
-        </table>
-        <h4>Bootsrap Tables bordered</h4>
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>First name</th>
-                    <th>Last name</th>
-                    <th>Address</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>San Jose</td>
-                </tr>
-                <tr>
-                    <td>Mark</td>
-                    <td>Book</td>
-                    <td>San Carlos</td>
-                </tr>
-                <tr>
-                    <td>Peter</td>
-                    <td>Bridge</td>
-                    <td>Angeles</td>
-                </tr>
-            </tbody>
-        </table>
-        <h4>Bootsrap Tables hover</h4>
-        <table class="table table-hover">
-            <thead>
-                <tr>
-                    <th>First name</th>
-                    <th>Last name</th>
-                    <th>Address</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>San Jose</td>
-                </tr>
-                <tr>
-                    <td>Mark</td>
-                    <td>Book</td>
-                    <td>San Carlos</td>
-                </tr>
-                <tr>
-                    <td>Peter</td>
-                    <td>Bridge</td>
-                    <td>Angeles</td>
-                </tr>
-            </tbody>
-        </table>
-        <!-- table with dark header -->
-        <h4>Bootsrap Tables with dark header</h4>
-        <table class="table">
-            <thead class="table-dark">
-                <tr>
-                    <th>First name</th>
-                    <th>Last name</th>
-                    <th>Address</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>San Jose</td>
-                </tr>
-                <tr>
-                    <td>Mark</td>
-                    <td>Book</td>
-                    <td>San Carlos</td>
-                </tr>
-                <tr>
-                    <td>Peter</td>
-                    <td>Bridge</td>
-                    <td>Angeles</td>
-                </tr>
-            </tbody>
-        </table>
+      <h2>Group button</h2>
+      <div class="btn-group">
+        <button type="button" class="btn btn-primary">Iphone</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Vivo</button>
+      </div>
+      <h2 class="mt-3">Vertical group buttons</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, sequi.
+      </p>
+      <div class="btn-group-vertical">
+        <button type="button" class="btn btn-primary">Iphone</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Vivo</button>
+      </div>
+      <h2 class="mt-3">Group buttons with dropdown toggler</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas,
+        quibusdam!
+      </p>
+      <div class="btn-group">
+        <div class="btn-group">
+          <button
+            type="button"
+            class="btn btn-primary dropdown-toggle"
+            data-bs-toggle="dropdown"
+          >
+            Iphone
+          </button>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Iphone 14</a>
+            <a href="#" class="dropdown-item">Iphone 13</a>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Vivo</button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
