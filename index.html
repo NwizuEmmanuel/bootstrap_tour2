@@ -1,38 +1,63 @@
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container mt-3">
-        <div class="alert alert-success">Lorem ipsum dolor sit amet.</div>
-        <div class="alert alert-dark">Lorem ipsum dolor sit amet.</div>
-        <div class="alert alert-primary">Lorem ipsum dolor sit amet.</div>
-        <div class="alert alert-info">Lorem ipsum dolor sit amet.</div>
-        <div class="alert alert-secondary">Lorem ipsum dolor sit amet.</div>
-        <div class="alert alert-success">
-            <strong>Success!</strong> You have won a coin.<a href="#" class="alert-link">Claim it</a>
-        </div>
-        <h3>Dismissable alert</h3>
-        <div class="alert alert-info alert-dismissible fade show">
-            <strong>Executed! </strong>Profile updated.
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-        </div>
-        <div class="alert alert-success alert-dismissible fade show">
-            <strong>Executed! </strong>Profile updated.
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-        </div>
-        <div class="alert alert-primary alert-dismissible fade show">
-            <strong>Executed! </strong>Profile updated.
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-        </div>
-    </div>
-</body>
+      <h2>Bootstrap buttons</h2>
+      <button class="btn btn-outline-primary btn-sm" type="button">
+        comfirm
+      </button>
 
+      <!-- block button -->
+      <div class="d-grid mt-4 gap-3">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          amet totam alias ducimus assumenda hic dolores nostrum nesciunt
+          asperiores a eos itaque iusto quidem quia aliquid, repellat quas
+          soluta ipsa.
+        </p>
+        <button type="button" class="btn btn-info btn-block text-white">
+          claim your token
+        </button>
+        <button type="button" class="btn btn-info btn-block text-white">
+          stake your token
+        </button>
+      </div>
+
+      <!-- active and disabled button -->
+      <h2 class="mt-3">Active and disabled</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+        inventore. Numquam consectetur in animi excepturi facere id, fugit
+        sapiente saepe quas ratione amet, voluptatibus neque suscipit nostrum!
+        Expedita, perspiciatis sapiente.
+      </p>
+      <button type="button" class="btn btn-primary active">confirm withdrawal</button>
+      <button type="button" class="btn btn-primary disabled">claim airdrop</button>
+      <button type="button" class="btn btn-primary" disabled>start staking</button>
+
+      <!-- loading buttons -->
+      <h2 class="mt-3">Loading buttons</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, earum.</p>
+      <button type="button" class="btn btn-primary my-2">
+        <span class="spinner-border spinner-border-sm"></span>
+        <span class="ps-3">submitting form...</span>
+      </button>
+      <br>
+      <button type="button" class="btn btn-primary my-2">
+        <span class="spinner-grow spinner-grow-sm"></span>
+        submitting form...
+      </button>
+    </div>
+  </body>
 </html>
