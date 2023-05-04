@@ -12,72 +12,65 @@
   </head>
 
   <body>
-    <div class="container mt-3">
-      <h2>Pagination</h2>
+    <div class="container my-3">
+      <h2>List groups</h2>
       <p>Lorem ipsum dolor sit amet.</p>
-      <ul class="pagination">
-        <li class="page-item disabled"><a href="#" class="page-link">Previous</a></li>
-        <li class="page-item"><a href="#" class="page-link">1</a></li>
-        <li class="page-item"><a href="#" class="page-link">2</a></li>
-        <li class="page-item active"><a href="#" class="page-link">3</a></li>
-        <li class="page-item"><a href="#" class="page-link">End</a></li>
+      <ul class="list-group">
+        <li class="list-group-item active">Active item</li>
+        <li class="list-group-item">First item</li>
+        <li class="list-group-item">Second Item</li>
+        <li class="list-group-item">Third item</li>
       </ul>
+      <p>List group with linked items</p>
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action disabled">First item</a>
+        <a href="#" class="list-group-item list-group-item-action">First item</a>
+        <a href="#" class="list-group-item list-group-item-action">Second item</a>
+        <a href="#" class="list-group-item list-group-item-action">Third item</a>
+      </div>
+      <p>List group without borders</p>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action">First item</a>
+        <a href="#" class="list-group-item list-group-item-action">Second item</a>
+        <a href="#" class="list-group-item list-group-item-action">Third item</a>
+      </div>
 
-      <!-- large pagination -->
-      <p>Lorem ipsum dolor sit amet.</p>
-      <ul class="pagination pagination-lg">
-        <li class="page-item disabled"><a href="#" class="page-link">Previous</a></li>
-        <li class="page-item"><a href="#" class="page-link">1</a></li>
-        <li class="page-item"><a href="#" class="page-link">2</a></li>
-        <li class="page-item active"><a href="#" class="page-link">3</a></li>
-        <li class="page-item"><a href="#" class="page-link">End</a></li>
-      </ul>
+      <p>Numbered list group</p>
+      <ol class="list-group list-group-numbered">
+        <li class="list-group-item">First item</li>
+        <li class="list-group-item">Second Item</li>
+        <li class="list-group-item">Third item</li>
+      </ol>
 
-      <!-- small pagination -->
-      <p>Lorem ipsum dolor sit amet.</p>
-      <ul class="pagination pagination-sm">
-        <li class="page-item disabled"><a href="#" class="page-link">Previous</a></li>
-        <li class="page-item"><a href="#" class="page-link">1</a></li>
-        <li class="page-item"><a href="#" class="page-link">2</a></li>
-        <li class="page-item active"><a href="#" class="page-link">3</a></li>
-        <li class="page-item"><a href="#" class="page-link">End</a></li>
-      </ul>
+      <p>Horizontal list group</p>
+      <div class="list-group list-group-horizontal">
+        <a href="#" class="list-group-item list-group-item-action">First item</a>
+        <a href="#" class="list-group-item list-group-item-action">Second item</a>
+        <a href="#" class="list-group-item list-group-item-action">Third item</a>
+      </div>
 
-      <!-- aligned pagination -->
-      <p>left aligned (default)</p>
-      <ul class="pagination">
-        <li class="page-item disabled"><a href="#" class="page-link">Previous</a></li>
-        <li class="page-item"><a href="#" class="page-link">1</a></li>
-        <li class="page-item"><a href="#" class="page-link">2</a></li>
-        <li class="page-item active"><a href="#" class="page-link">3</a></li>
-        <li class="page-item"><a href="#" class="page-link">End</a></li>
-      </ul>
-      <!-- center aligned pagination -->
-      <p>Center aligned</p>
-      <ul class="pagination justify-content-center">
-        <li class="page-item"><a href="#" class="page-link">Previous</a></li>
-        <li class="page-item"><a href="#" class="page-link">1</a></li>
-        <li class="page-item"><a href="#" class="page-link">2</a></li>
-        <li class="page-item"><a href="#" class="page-link">3</a></li>
-        <li class="page-item"><a href="#" class="page-link">End</a></li>
-      </ul>
-      <!-- right aligned -->
-      <p>Right aligned</p>
-      <ul class="pagination justify-content-end">
-        <li class="page-item"><a href="#" class="page-link">Previous</a></li>
-        <li class="page-item"><a href="#" class="page-link">1</a></li>
-        <li class="page-item"><a href="#" class="page-link">2</a></li>
-        <li class="page-item active"><a href="#" class="page-link">3</a></li>
-        <li class="page-item"><a href="#" class="page-link">End</a></li>
-      </ul>
+      <p>Contextual list group</p>
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-primary list-group-item-action">First item</a>
+        <a href="#" class="list-group-item list-group-item-info list-group-item-action">Second item</a>
+        <a href="#" class="list-group-item list-group-item-success list-group-item-action">Third item</a>
+      </div>
 
-      <p>Breadcrumbs</p>
-      <ul class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Home</a></li>
-        <li class="breadcrumb-item"><a href="#">Contact</a></li>
-        <li class="breadcrumb-item"><a href="#">About</a></li>
-        <li class="breadcrumb-item"><a href="#" class="active">tel</a></li>
-      </ul>
+      <p>List group with badge</p>
+      <div class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-item-center">
+            messeages
+            <span class="badge bg-info rounded-pill">5</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-item-center">
+            messeages
+            <span class="badge bg-info rounded-pill">5</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-item-center">
+            messeages
+            <span class="badge bg-info rounded-pill">5</span>
+        </li>
+      </div>
     </div>
   </body>
 </html>
